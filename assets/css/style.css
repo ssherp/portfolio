@@ -17,8 +17,9 @@ h1{
    font-family:cursive;
    font-size:70px ;
    padding: 20px;
-   color: rgb(115, 56, 210);
-   mix-blend-mode: color-burn;
+   color: rgb(200, 11, 17);
+   text-shadow: -5px -5px 12px gold;
+   
   
 }
 body
