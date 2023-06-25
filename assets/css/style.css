@@ -4,9 +4,17 @@
    padding:0; 
    margin: 0; 
 }
-
+.image {
+  background-image: url(../images/spiral-image.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+   background-position:center;   
+}
 header
 {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
   box-shadow: 0px 0px 70px 15px rgb(225, 217, 217);
 }
 
@@ -22,14 +30,13 @@ h1{
 }
 body
 {
-  
-  background-image: url(../images/spiral-image.png);
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-position:center;
+display: flex;
+flex-direction: column;  
+
+
     
 }
-body::before
+.image::before
 {
 content: '';  
 background-image: inherit;  
@@ -43,7 +50,8 @@ transform: scale(1.2);
 nav
 {
   padding-right: 20px;
-  margin: right 20px;;
+  margin: right 20px;
+  margin-top: 12px;
   float:right;
   font-size: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,3 +75,19 @@ a
   border-radius:90px ;
   text-decoration: none; 
 }
+main
+{
+display: flex
+flex 1 1 0; 
+max-width: 1200px;
+margin: 2%;
+outline: red dashed;
+}
+h2
+{
+font-size: 45px;
+}
+p
+{font-size: 30px;
+outline: red dashed;}
+
