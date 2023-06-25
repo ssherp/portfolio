@@ -28,6 +28,9 @@ h1{
    text-shadow: -5px -5px 12px gold;
   
 }
+article{
+  margin: 200px;
+}
 body
 {
 display: flex;
@@ -63,6 +66,7 @@ list-style-type: none;
 li
 {
   display: inline-flex;
+  
 }
 a
 {
@@ -74,6 +78,7 @@ a
   border: 3px solid #13293d;
   border-radius:90px ;
   text-decoration: none; 
+  padding:20px;
 }
 main
 {
@@ -91,3 +96,23 @@ p
 {font-size: 30px;
 outline: red dashed;}
 
+address{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width:992px) 
+{
+
+}
+  
+@media screen and (max-width:768px) {
+ header{display: block;}
+h1{font-size:20px;}
+nav{font-size: 15px;}
+h2{
+  font-size: 15px; 
+}
+}
