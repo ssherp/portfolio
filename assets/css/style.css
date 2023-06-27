@@ -36,9 +36,8 @@ body
 display: flex;
 flex-direction: column;  
 
-
-    
 }
+
 .image::before
 {
 content: '';  
@@ -88,12 +87,16 @@ max-width: 1200px;
 margin: 2%;
 outline: red dashed;
 }
+article{outline: red dashd;}
 h2
 {
 font-size: 45px;
+outline: red dashed;
 }
 p
-{font-size: 30px;
+{
+ text-indent: 15px;
+font-size: 15px;
 outline: red dashed;}
 
 address{
