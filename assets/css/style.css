@@ -15,10 +15,17 @@ header
   display: flex;
   justify-content: space-between;
   padding: 40px;
-  box-shadow: 0px 0px 70px 15px rgb(225, 217, 217);
+  box-shadow: 0px 0px 70px 15px rgb(31, 28, 189);
 }
-
-
+.me-image
+{
+margin-left: 50px;
+border-radius: 50px;
+border-width:20px 20px 20px 20px;
+border-style: groove;
+border-color: rgb(61, 61, 104);
+box-shadow:0px 0px 50px 10px rgb(11, 57, 113) ;
+}
 h1{
   text-align: start;
    font-family: Copperplate, Papyrus, fantasy;
@@ -29,7 +36,8 @@ h1{
   
 }
 article{
-  margin: 200px;
+  margin: 210px;
+  display: flex;
 }
 body
 {
@@ -51,11 +59,10 @@ transform: scale(1.2);
 }
 nav
 {
-  padding-right: 20px;
-  margin: right 20px;
-  margin-top: 12px;
-  float:right;
-  font-size: 40px;
+  padding-right: 50px;
+  padding-top: 80px;
+  margin-top: 50px;
+  font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 ul
@@ -83,18 +90,19 @@ main
 {
 display: flex
 flex 1 1 0; 
-max-width: 1200px;
 margin: 2%;
 outline: red dashed;
 }
-article{outline: red dashd;}
+
 h2
 {
 font-size: 45px;
-outline: red dashed;
+padding-right: 30px;
+
 }
 p
 {
+  padding: 20px;
  text-indent: 15px;
 font-size: 15px;
 outline: red dashed;}
