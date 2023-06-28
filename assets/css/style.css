@@ -199,6 +199,12 @@ body{font-size: 15px;}
 h1{font-size: 25px;}
 nav{font-size:20px;}
 h2{font-size: 20px;}
+.project-row{
+  flex-direction: column;}
+.main-project{
+  height:300px;
+  width: 400px;
+}
 }
   
 @media screen and (max-width:768px) {
