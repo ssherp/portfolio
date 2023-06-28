@@ -140,9 +140,13 @@ section{
   width: 800px;
   height: 900px;
 }
-.main-project:hover{
+.main-project:hover
+{
   opacity: 0.7;
-
+}
+.prework-site:hover
+{
+  opacity: 0.7; ;
 }
 
 .main-title
@@ -169,7 +173,7 @@ padding-left: 90px;
 .projects-title
 {
  color: white;
- 
+
 }
 
 address{
