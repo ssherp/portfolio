@@ -181,15 +181,23 @@ padding-left: 40px;
   display: flex;
   justify-content: center;
 }
-
-
-
-
+.contact-info
+{display: flex;
+  flex: content;
+justify-content: center;
+}
+.web
+{
+color: white;
+font-size: 30px;
+margin: 20px;
+}
 
 
 @media screen and (max-width:992px) 
 {
 header{display: block;}
+
 h1{font-size: 25px;}
 nav{font-size:20px;}
 h2{font-size: 20px;}
@@ -197,6 +205,10 @@ h2{font-size: 20px;}
   
 @media screen and (max-width:768px) {
  header{display: block;}
+ section div{
+  font-size: 10px;
+ }
+
 h1{font-size:20px;}
 nav{font-size: 15px;}
 h2{font-size: 15px; 
