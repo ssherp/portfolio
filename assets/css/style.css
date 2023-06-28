@@ -195,18 +195,36 @@ margin: 20px;
 @media screen and (max-width:992px) 
 {
 header{display: block;}
-
+body{font-size: 15px;}
 h1{font-size: 25px;}
 nav{font-size:20px;}
 h2{font-size: 20px;}
 }
   
 @media screen and (max-width:768px) {
- header{display: block;}
- section div{
+ header{display: flex;
+flex-direction: column;}
+ body{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px; 
   font-size: 10px;
+  padding: 0px;
+  margin: 0px;
+  flex-shrink: 23px 20px;
  }
-
+ .hello-there{
+  display: flex;
+  flex-direction: column;
+ ;
+  }
+  article h2 p{
+    font-size: 12px;
+    
+  }
+ .above-sky{
+  display: flex;
+ background-image: none;}
 h1{font-size:20px;}
 nav{font-size: 15px;}
 h2{font-size: 15px; 
