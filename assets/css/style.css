@@ -118,11 +118,6 @@ padding: 20px;
   
 }
 
-section{
-
-
-  
-}
 
 #projects 
 {
@@ -140,13 +135,11 @@ section{
   width: 800px;
   height: 900px;
 }
-.main-project:hover
+.main-project:hover, 
+.prework-website:hover,
+.sample-website:hover
 {
   opacity: 0.7;
-}
-.prework-site:hover
-{
-  opacity: 0.7; ;
 }
 
 .main-title
@@ -159,7 +152,8 @@ section{
 {
 padding-left: 90px;
  }
- .prework-site
+ .prework-website,
+ .sample-website
  {
   border:10px #13293d solid;
  }
@@ -175,8 +169,15 @@ padding-left: 90px;
  color: white;
 
 }
+.sample-title
+{
 
-address{
+padding-top: 30px;
+padding-left: 40px;
+
+}
+.contact-info
+{
   display: flex;
   justify-content: center;
 }
